@@ -12,7 +12,7 @@ class employee:
     def __init__(self,name,age,pay,bonus):
         self.name=name
         self.age=age
-        self.Salary=salary(pay,bonus) #Initializing Class variables of salary to Class employee
+        self.Salary=salary(pay,bonus) #Passing salary object to class employee
     def total_salary(self):
         return self.Salary.annual_salary()
 
